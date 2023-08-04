@@ -27,23 +27,59 @@
         <p class="top-banner-text"> Official V.league 1 Fantasy Football Application </p>
         <img src="./images/vleague1.png" alt="" class="fanta-mb" />
       </div>
-      <div class="partner " >
-        <img src="/images/partner.png" style="float: left"/>
-        <p class="container" style="margin-left: 14%; font-size: 14px"> ĐỐI TÁC VẬN HÀNH </p>
-
+        <div class="ds-small">
+            <div style="margin-left: 20%; margin-top: 5%" >
+                <p class="d-md-none sm-fonts">Official V.league 1</p>
+                <p class="d-md-none sm-fonts"> Fantasy Football Application</p>
+              </div>
+          </div>
+      <div class="partner">
+        <div class="d-flex justify-content-between ">
+            <img src="/images/partner.png" style="margin-left: -10%"/>
+            <div >
+                <p class="sm-fonts"> ĐỐI TÁC </p>
+                <p class="sm-fonts" > VẬN HÀNH </p>
+            </div>
+        </div>
       </div>
-      <div>
         <div class="vfatasy">
-          <img src="/images/vfantasy.png" />
-          <p class="fanta  d-none d-sm-block">VFANTASY</p>
+          <img src="/images/vfantasy.png" class="d-inline "/>
+          <p class="fanta d-none d-sm-block">VFANTASY</p>
           <select class="form-select form-rounded" id="team-select">
             <option value="">GoonerBBB</option>
           </select>
         </div>
-      </div>
 
+    <div class="flex justify-content-evenly vfatasy-menu pill">
+        <div class="my-auto navb-content d-none d-md-block">
+            <a href="">Giới thiệu</a>
+        </div>
+        <div class="my-auto navb-content d-none d-md-block">
+            <a href="">Hướng dẫn</a>
+        </div>
+        <div class="my-auto navb-content">
+            <a href="">Điểm số</a>
+        </div>
+        <div class="my-auto navb-content d-none d-md-block">
+            <a href="">Thiết lập đội hình</a>
+        </div>
+        <div class=" navb-content active-navb" style="margin-top:17.5px  ">
+            <a href="" class="">Chuyển nhượng</a>
+        </div>
+        <div class="my-auto navb-content d-none d-md-block">
+            <a href="">Giải đấu</a>
+        </div>
+        <div class="my-auto navb-content d-none d-md-block">
+            <a href="">Thống kê</a>
+        </div>
+        <div class="my-auto navb-content d-block d-md-none" style="content:'\2807'">
+            <a href="">Thêm &#10247;</a>
+        </div>
     </div>
-    <input class="form-group form-rounded vfatasy-menu" value="Bạn đang có 120tr và nhiệm vụ cần hoàn thành là chọn đủ 18 cầu thủ vào đội hình" type="text" readonly />
+
+
+
+
     <div class="container" style="margin-left: auto; margin-right: auto">
       <div class="row">
         <div class="col-md-9 ">
@@ -52,7 +88,7 @@
                     <div class="header-info mx-auto mb-4 text-center" >
                         <strong>Vòng đấu 17</strong> thời điểm bắt đầu <strong>24/03/2023 - 17:00</strong>
                     </div>
-                    <div class="d-flex justify-content-md-between px-3">
+                    <div class="d-flex justify-content-md-evenly px-3">
                       <div class=" wi-100s form-select form-rounded mt-1 h-50 d-none d-md-block " >
                         <ul class="navbar-nav ">
                           <li class="nav-item dropdown ">
@@ -74,7 +110,7 @@
                         </ul>
                       </div>
                       <div class="wi-100s" style="margin-right: 5px">
-                        <p class="text-center">Đội hình</p>
+                        <p class="text-center d-block d-md-none">Đội hình</p>
                       <div class="  form-select form-rounded mt-1 h-50 d-block d-md-none " >
 
                         <ul class="navbar-nav ">
@@ -103,27 +139,8 @@
                         <p style="font-weight: 700; font-size: 32px; margin-bottom: 0;">0</p>
                         <p class="mx-4 ">điểm</p>
                       </div>
-                      <div class=" wi-100s form-select form-rounded mt-1 h-50 d-none d-md-block " >
-                        <ul class="navbar-nav">
-                          <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 0"> Hiển thị <strong style="padding-left: 10%;"> TÊN ĐỘI</strong>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                              <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="#">Another action</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div>
                       <div class="wi-100s" style="margin-left: 5px">
-                        <p class="text-center">Hiển thị</p>
+                        <p class="text-center d-block d-md-none">Hiển thị</p>
                       <div class="  form-select form-rounded mt-1 h-50 d-block d-md-none " >
 
                         <ul class="navbar-nav ">
@@ -147,6 +164,26 @@
                         </ul>
                       </div>
                       </div>
+                      <div class=" wi-100s form-select form-rounded mt-1 h-50 d-none d-md-block " >
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 0"> Hiển thị <strong style="padding-left: 10%;"> TÊN ĐỘI</strong>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+
                     </div>
                     <div class="s-field  mx-auto ">
 
