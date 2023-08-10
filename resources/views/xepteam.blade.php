@@ -44,7 +44,7 @@
       </div>
         <div class="vfatasy">
           <img src="/images/vfantasy.png" class="d-inline "/>
-          <p class="fanta d-none d-sm-block">VFANTASY</p>
+          <p class="fanta d-none d-sm-block mb-3">VFANTASY</p>
           <select class="form-select form-rounded" id="team-select">
             <option value="">GoonerBBB</option>
           </select>

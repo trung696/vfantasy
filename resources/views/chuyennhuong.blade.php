@@ -11,38 +11,71 @@
   </head>
   <body>
     <div class="menu">
-      <header class="d-flex justify-content-between header pt-3">
-        <div class="col-3"></div>
-        <div class="col-6 club-logo d-none d-sm-block ">
-          <img src="/images/club-logo.png" />
+        <header class="d-flex justify-content-between header pt-3">
+          <div class="col-3"></div>
+          <div class="col-6 club-logo d-none d-sm-block ">
+            <img src="/images/club-logo.png" />
+          </div>
+          <div class="col-3 sign">
+            <div class="" style="float: right; margin-right: 10%; margin-top: 3%; color:#FFB72D">
+              <div class="d-sm-inline-block d-none "> Xin chào , <a href="" style="color: #FFB72D; text-decoration: none;">&nbsp; Bách Nguyễn</a></div>
+              <img src="/images/avatar.png" />
+            </div>
+          </div>
+        </header>
+        <div class="text-center v-league">
+          <p class="top-banner-text"> Official V.league 1 Fantasy Football Application </p>
+          <img src="./images/vleague1.png" alt="" class="fanta-mb" />
         </div>
-        <div class="col-3 sign">
-          <div class="" style="float: right; margin-right: 10%; margin-top: 3%;color:#FFB72D">
-            <div class="d-sm-inline-block d-none "> Xin chào , <a href="" style="color: #FFB72D; text-decoration: none;">&nbsp; Bách Nguyễn</a></div>
-
-            <img src="/images/avatar.png" />
+          <div class="ds-small">
+              <div style="margin-left: 20%; margin-top: 5%" >
+                  <p class="d-md-none sm-fonts">Official V.league 1</p>
+                  <p class="d-md-none sm-fonts"> Fantasy Football Application</p>
+                </div>
+            </div>
+        <div class="partner">
+          <div class="d-flex justify-content-between ">
+              <img src="/images/partner.png" style="margin-left: -10%"/>
+              <div >
+                  <p class="sm-fonts"> ĐỐI TÁC </p>
+                  <p class="sm-fonts" > VẬN HÀNH </p>
+              </div>
           </div>
         </div>
-      </header>
-      <div class="text-center v-league">
-        <p class="top-banner-text"> Official V.league 1 Fantasy Football Application </p>
-        <img src="./images/vleague1.png" alt="" class="fanta-mb" />
-      </div>
-      <div class="partner " >
-        <img src="/images/partner.png" style="float: left" />
-        <p class="container" style="margin-left: 14%; font-size: 14px"> ĐỐI TÁC VẬN HÀNH </p>
+          <div class="vfatasy">
+            <img src="/images/vfantasy.png" class="d-inline "/>
+            <p class="fanta d-none d-sm-block mb-3">VFANTASY</p>
+            <select class="form-select form-rounded" id="team-select">
+              <option value="">GoonerBBB</option>
+            </select>
+          </div>
 
+      <div class="flex justify-content-evenly vfatasy-menu pill">
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Giới thiệu</a>
+          </div>
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Hướng dẫn</a>
+          </div>
+          <div class="my-auto navb-content">
+              <a href="">Điểm số</a>
+          </div>
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Thiết lập đội hình</a>
+          </div>
+          <div class=" navb-content active-navb" style="margin-top:17.5px  ">
+              <a href="" class="">Chuyển nhượng</a>
+          </div>
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Giải đấu</a>
+          </div>
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Thống kê</a>
+          </div>
+          <div class="my-auto navb-content d-block d-md-none" style="content:'\2807'">
+              <a href="">Thêm &#10247;</a>
+          </div>
       </div>
-      <div>
-        <div class="vfatasy">
-          <img src="/images/vfantasy.png" />
-          <p class="fanta  d-none d-sm-block">VFANTASY</p>
-          <select class="form-select form-rounded" id="team-select">
-            <option value="">GoonerBBB</option>
-          </select>
-        </div>
-      </div>
-    </div>
 
  <!-- start modal  -->
  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -275,7 +308,7 @@
  <!-- end modal -->
 
 
-    <input class="form-group form-rounded vfatasy-menu" value="Bạn đang có 120tr và nhiệm vụ cần hoàn thành là chọn đủ 18 cầu thủ vào đội hình" type="text" readonly />
+
     <div class="container" style="margin-left: auto; margin-right: auto">
       <div class="row">
         <div class="col-md-9 ">
@@ -299,17 +332,17 @@
                     </table>
                     <div class="s-field  mx-auto ">
                       <div class="">
-                        <div class="h-100 position-relative" >
-                          <div class="ads container d-flex justify-content-between " >
+                        <div class="h-100 position-relative"  >
+                          <div class="ads mx-auto d-flex justify-content-between"  >
                             <img src="./images/ad_type1.png" alt="" class="d-inline-block">
-                            <div class="line-cf position-absolute" style="margin-top: 2%; margin-left: 25%;">Tiền đạo</div>
+                            <div class="line-cf line-small position-absolute" >Tiền đạo</div>
                             <img src="images/ads.png" alt="" class="d-inline-block">
                           </div>
                         </div>
                       <div class="container mt-3 ">
                         <div class="row">
-                          <div class="col-md-5 row col mx-auto">
-                            <div class="col-md-4 col-20 ">
+                          <div class="col-md-5 row col mx-auto justify-content-center">
+                            <div class="col-md-4 col-30 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
@@ -319,7 +352,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md-4 col-20">
+                            <div class="col-md-4 col-30">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
@@ -329,7 +362,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md-4 col-20">
+                            <div class="col-md-4 col-30">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
@@ -345,8 +378,8 @@
                       <div class="line-cf mx-auto mt-2">Tiền vệ</div>
                       <div class=" player-6s container mt-2 ">
                         <div class="row">
-                          <div class="row mx-auto">
-                            <div class="col-md ">
+                          <div class="col-md-6 col row mx-auto justify-content-center">
+                            <div class="col-md col-25 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -356,7 +389,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -366,7 +399,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -376,7 +409,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -386,7 +419,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -396,7 +429,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
@@ -413,8 +446,8 @@
                       <div class="line-cf mx-auto mt-3">Hậu vệ</div>
                       <div class=" player-6s container mt-2 ">
                         <div class="row">
-                          <div class="row mx-auto">
-                            <div class="col-md">
+                          <div class="col-md-6 col row mx-auto justify-content-center ">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -424,7 +457,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -434,7 +467,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -444,7 +477,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -454,7 +487,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -464,7 +497,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -480,14 +513,9 @@
                       <div class="line-cf mx-auto mt-3">Thủ môn</div>
                       <div class=" player-6s container mt-2 ">
                         <div class="row">
-                          <div class="row mx-auto">
-                            <div class="col-md">
+                          <div class="col-md-2 col row mx-auto justify-content-center my-1">
 
-                            </div>
-                            <div class="col-md">
-
-                            </div>
-                            <div class="col-md">
+                            <div class="col-md-2 col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -497,7 +525,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
+                            <div class="col-md-2 col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -507,18 +535,10 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md">
-
-                            </div>
-                            <div class="col-md">
-
-                            </div>
                         </div>
                         </div>
                       </div>
                       </div>
-
-
                     </div>
                     <div class="d-flex justify-content-center mt-4 pb-3">
                       <button class="complete ">
@@ -527,7 +547,7 @@
                     </div>
                   </div>
             <!-- start course 2 -->
-                  <div class=" main-box w-100 pt-4 mt-4">
+                  <div class=" main-box w-100 pt-4 mt-4 d-none d-md-block">
                     <table class="header-info mx-auto mb-4" >
                         <thead>
                             <tr>
@@ -549,7 +569,7 @@
                         <div class="h-100 position-relative" >
                           <div class="ads container d-flex justify-content-between " >
                             <img src="./images/ad_type1.png" alt="" class="d-inline-block">
-                            <div class="line-cf position-absolute" style="margin-top: 2%; margin-left: 25%;">Tiền đạo</div>
+                            <div class="line-cf line-small position-absolute" >Tiền đạo</div>
                             <img src="images/ads.png" alt="" class="d-inline-block">
                           </div>
                         </div>
