@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="menu">
-        <header class="d-flex justify-content-between header pt-3">
+        <header class="d-flex justify-content-between header pt-3" id="vtop">
           <div class="col-3"></div>
           <div class="col-6 club-logo d-none d-xl-block ">
             <img src="/images/club-logo.png" />
@@ -35,14 +35,10 @@
             </div>
         <div class="partner">
           <div class="d-flex justify-content-between ">
-              <img src="/images/partner.png" style="margin-left: -10%"/>
-              <div >
-                  <p class="sm-fonts"> ĐỐI TÁC </p>
-                  <p class="sm-fonts" > VẬN HÀNH </p>
-              </div>
+              <img src="/images/ons.png" style="margin-left: -10%"/>
           </div>
         </div>
-          <div class="vfatasy">
+          <div class="vfatasy" id="vfatasy">
             <img src="/images/vfantasy.png" class="d-inline "/>
             <p class="fanta d-none d-sm-block mb-3">VFANTASY</p>
             <select class="form-select form-rounded" id="team-select">
@@ -80,11 +76,11 @@
  <!-- start modal  -->
  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
+    <div class="modal-content ">
+      <div class="modal-header d-none d-md-block">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body d-none d-md-block">
         <div class=" d-flex justify-content-end" id="exampleModalLabel">
           <div>
             <img src="images/avapopup.png" alt="" class="w-100">
@@ -97,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="modal-body">
+      <div class="modal-body d-none d-md-block">
         <table class="table">
           <thead>
             <tr>
@@ -117,7 +113,7 @@
           </tbody>
         </table>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer d-none d-md-block">
 
         <table class="table" style=" border-collapse: separate;
         border-spacing: 0 10px;">
@@ -301,63 +297,318 @@
         </table>
 
       </div>
-    </div>
-  </div>
-</div>
- <!-- end modal -->
-{{-- other modal --}}
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="d-block d-md-none">
+        <h3>Lựa chọn cầu thủ</h3>
+        <select name="" id="" class="form-control form-select form-rounded mt-1" value="">
+          <option value="" selected>Tất cả cầu thủ</option>
+        </select>
+        <div class="form-control form-select form-rounded mt-1" style="line-height: 32px">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 0"> Sắp xếp theo <strong>Tổng điểm</strong>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div class="modal-body">
-          <div class=" d-flex justify-content-end" id="exampleModalLabel">
-            <div>
-              <img src="images/avapopup.png" alt="" class="w-100">
-            </div>
-            <div class=" w-100" style="margin-left: 10%;">
-              <p style="font-size: 12px;font-weight: 400; margin-bottom: 0;">Hậu vệ</p>
-              <p style="font-size: 20px;font-weight: 600; margin-bottom: 0;">Andres Vieina</p>
-              <p style="font-size: 12px;font-weight: 600; margin-bottom: 0;">CLB SHB Đà Nẵng</p>
-              <p style="font-size: 12px;font-weight: 400; margin-bottom: 0;">vs HNFC (A)</p>
-            </div>
+        <div class="form-control form-select form-rounded mt-1 mb-1" style="line-height: 32px">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 0"> Giá <strong>trên 8tr</strong>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form action="form-control">
+          <input type="search" placeholder="Search..." />
+          <button type="submit"> Search </button>
+        </form>
+        <p class="search-detail mt-2">Kết quả 329 cầu thủ</p>
+        <div class="bench">
+          <div class="d-flex justify-content-center">
+            <button class="rounded border-0 w-50 mb-2">Tiền đạo</button>
           </div>
-        </div>
-        <div class="modal-body">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Tổng điểm</th>
-                <th>Điểm vòng 16</th>
-                <th>Giá</th>
-                <th>Sẵn sàng thi đấu</th>
-              </tr>
-            </thead>
+          <table class="table border">
             <tbody>
+              <tr class="info-block">
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
               <tr>
-                <th>1.225</th>
-                <th>300</th>
-                <th>7tr</th>
-                <th>Có</th>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
               </tr>
             </tbody>
           </table>
         </div>
-        <div class="modal-footer">
-          <!-- <button type="button" class="btn btn-secondary">HỒ SƠ CẦU THỦ</button> -->
-          <button type="button" class="py-3 modal-btn w-100">Hồ sơ cầu thủ</button>
-          <button type="button" class="py-3 modal-btn w-100">Thay thế cầu thủ khác</button>
-
+        <div class="bench">
+          <div class="d-flex justify-content-center">
+            <button class="rounded border-0 w-50 mb-2">Tiền vệ</button>
+          </div>
+          <table class="table border">
+            <tbody>
+              <tr class="info-block">
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
+        <div class="bench">
+          <div class="d-flex justify-content-center">
+            <button class="rounded border-0 w-50 mb-2">Hậu vệ</button>
+          </div>
+          <table class="table border">
+            <tbody>
+              <tr class="info-block">
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="bench">
+          <div class="d-flex justify-content-center">
+            <button class="rounded border-0 w-50 mb-2">Thủ môn</button>
+          </div>
+          <table class="table border">
+            <tbody>
+              <tr class="info-block">
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="btn rounded-circle border border-1 mt-3">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
+                </th>
+                <td class="player-img">
+                  <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
+                </td>
+                <td class="player-info">
+                  <div class="player-name">Almada Monteiro Elton</div>
+                  <div class="place-price">CAHN &#x2022; 10tr</div>
+                </td>
+                <td>
+                  <p class="mt-4">1.225</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <a href="#">Đầu</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">...</a>
+          <a href="#">8</a>
+          <a href="#">Cuối</a>
+        </div>
+
+</div>
     </div>
+
   </div>
-{{-- end other modal --}}
+</div>
+ <!-- end modal -->
+
     <div class="container" style="margin-left: auto; margin-right: auto">
       <div class="row">
-        <div class="col-md-9 " >
+        <div class="col-md-9" >
+            <div class="err-message d-none">
+                <img src="./images/caution.png" alt="">
+                Đội hình có nhiều hơn 3 cầu thủ đội Viettel
+            </div>
           <!-- start course 1 -->
             <div class=" main-box w-100 pt-4 mt-4" style="position: sticky;  top: 0;" >
                     <table class="header-info mx-auto mb-4" >
@@ -390,7 +641,7 @@
                           <div class="col-xl-5 col-md-7 row col mx-auto justify-content-center">
                             <div class="col-md col-30 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#otherModal">
                                 Chọn
                               </button>
                               <div class="field-info rounded-bottom">
@@ -400,7 +651,7 @@
                             </div>
                             <div class="col-md col-30">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#otherModal">
                                 Chọn
                               </button>
                               <div class="field-info rounded-bottom">
@@ -913,19 +1164,15 @@
 
         }
          }
-        //  lops.forEach((lop) => {
-        //         console.log(lop);
-        //     });
-        //  if (document.getElementsByClassName(res_id).style.display === "none") {
-        //   document.getElementsByClassName(res_id).style.display = "table";
-        //   document.getElementsByClassName(clicked_id).className = "table-og-background";
-
-        // } else {
-        //   document.getElementsByClassName(res_id).style.display = "none";
-        //   document.getElementsByClassName(clicked_id).className = "table-gr-background";
-
-        // }
         }
     </script>
+    <hr>
+    <footer class="container" style="gap: 31px">
+        <div class="d-flex">
+            <p class="me-auto align-self-center" style="font-size: 14px;font-weight: 400;">© 2023 All Rights Reserved.</p>
+            <a href="#vtop" class="align-self-center m-3" style="color: black; text-decoration: none;font-size: 14px;font-weight: 400;">BACK TO TOP</a>
+            <img src="/images/vfantasy.png" alt="" class="" style="height: 57px">
+        </div>
+    </footer>
   </body>
 </html>

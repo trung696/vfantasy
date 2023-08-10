@@ -451,6 +451,16 @@ border-bottom: 0.5px solid;
   .close-icon{
     margin-left:6%; margin-top: -0.2%;
   }
+  .err-message{
+    padding:4px 16px 4px 16px;
+    margin-top: 12px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    line-height: 24px;
+  }
 @media (max-width: 768px) {
     .sm-fonts{
         font-size: 10px;
