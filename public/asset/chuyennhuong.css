@@ -448,6 +448,123 @@ border-bottom: 0.5px solid;
     margin-top: 2%;
     margin-left: 26.5%;
   }
+  .close-icon{
+    margin-left:6%; margin-top: -0.2%;
+  }
+@media (max-width: 768px) {
+    .sm-fonts{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    p{
+        margin-bottom: 0 !important;
+    }
+    .menu{
+        background-image:url(../images/menulogo.png);
+        background-size:cover;
+        background-position: center;
+        height: px;
+    }
+    .vfatasy-menu {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -3%;
+    }
+    .v-league{
+        display: none;
+    }
+  .vfatasy {
+    position: relative;
+    display: block;
+    align-items: center;
+    color: #ffb72d;
+    margin-top: -12%;
+    margin-left: 18%;
+    padding-left: 3%;
+    margin-bottom: 1%;
+  }
+  .pill{
+    border-radius: 16px;
+  }
+  #team-select {
+    margin-left: 1% !important;
+    margin-top: 3% !important;
+  }
+  .vfatasy img {
+    width: 15%;
+    display: inline;
+  }
+  .vfatasy p {
+    /* font-size: xx-large; */
+    font-size: 8px;
+    font-weight: 500;
+    color: white;
+    background: none;
+
+  }
+  p.fanta{
+    display: none;
+  }
+  .fanta-mb{
+    display: none;
+  }
+  .menu{
+    max-height: 375px;
+    /* display: inline-flex; */
+  }
+  .partner{
+    display: inline;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: -10%;
+    color: white;
+  }
+  .ds-small{
+    position: absolute;
+    color: white;
+    margin-top: -12%;
+    margin-left: 13%;
+  }
+  .text-center.v-leauge{
+    display:inline
+  }
+  .s-field{
+    background-image:url(../images/stage.png);
+    background-size:cover;
+    background-position:center;
+    width:fit-content;
+    /* height: 100%; */
+    background-repeat: no-repeat
+  }
+  .col-20{
+    width: 20% !important;
+  }
+  .col-25{
+    width: 25% !important;
+  }
+  .col-30{
+    width: 30% !important;
+  }
+  .wi-100s{
+    width: 100% !important;
+  }
+  .line-small{
+    margin-top: 5% !important;
+    margin-left: 22% !important;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .line-cf{
+  width: 20%;
+  }
+  .close-icon{
+    margin-left:5%; margin-top: -0.2%;
+  }
+
+  .club-logo{
+    width: 50% !important;
+  }
+}
 @media (max-width: 480px) {
     .sm-fonts{
         font-size: 10px;
@@ -554,4 +671,11 @@ border-bottom: 0.5px solid;
   .line-cf{
   width: 20%;
   }
+  .close-icon{
+    margin-left:15%; margin-top: -0.2%;
+  }
+  .mtm-1{
+    padding-top: 5px;
+  }
 }
+

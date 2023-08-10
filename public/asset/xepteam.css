@@ -1,3 +1,4 @@
+
 .menu{
     background-image:url(../images/menulogo.png);
     background-size:cover;
@@ -316,7 +317,7 @@ h3{
 
 }
 .field-img{
-  width: 50%;
+  width: 48px;
 }
 .player-6s .col-md{
   padding-left: 0 !important;
@@ -435,6 +436,9 @@ border-bottom: 0.5px solid;
     font-size: 14px;
     font-weight: 500;
 }
+.close-icon{
+    margin-left:3.5%; margin-top: -0.2%;
+  }
 @media (max-width: 480px) {
     .sm-fonts{
         font-size: 10px;
@@ -532,8 +536,13 @@ border-bottom: 0.5px solid;
   .wi-100s{
     width: 100% !important;
   }
-  /* .score-count{
-    margin-left: 25px;
-    margin-right: 25px;
-  } */
+  .close-icon{
+    margin-left:12%; margin-top: -0.2%;
+  }
+}
+@media (max-width: 1920px) {
+.w-1230{
+    width: 1230px ;
+    }
+
 }

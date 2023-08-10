@@ -13,7 +13,7 @@
     <div class="menu">
         <header class="d-flex justify-content-between header pt-3">
           <div class="col-3"></div>
-          <div class="col-6 club-logo d-none d-sm-block ">
+          <div class="col-6 club-logo d-none d-xl-block ">
             <img src="/images/club-logo.png" />
           </div>
           <div class="col-3 sign">
@@ -118,7 +118,6 @@
         </table>
       </div>
       <div class="modal-footer">
-        <!-- <button type="button" class="btn btn-secondary">HỒ SƠ CẦU THỦ</button> -->
 
         <table class="table" style=" border-collapse: separate;
         border-spacing: 0 10px;">
@@ -306,14 +305,61 @@
   </div>
 </div>
  <!-- end modal -->
+{{-- other modal --}}
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class=" d-flex justify-content-end" id="exampleModalLabel">
+            <div>
+              <img src="images/avapopup.png" alt="" class="w-100">
+            </div>
+            <div class=" w-100" style="margin-left: 10%;">
+              <p style="font-size: 12px;font-weight: 400; margin-bottom: 0;">Hậu vệ</p>
+              <p style="font-size: 20px;font-weight: 600; margin-bottom: 0;">Andres Vieina</p>
+              <p style="font-size: 12px;font-weight: 600; margin-bottom: 0;">CLB SHB Đà Nẵng</p>
+              <p style="font-size: 12px;font-weight: 400; margin-bottom: 0;">vs HNFC (A)</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Tổng điểm</th>
+                <th>Điểm vòng 16</th>
+                <th>Giá</th>
+                <th>Sẵn sàng thi đấu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1.225</th>
+                <th>300</th>
+                <th>7tr</th>
+                <th>Có</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary">HỒ SƠ CẦU THỦ</button> -->
+          <button type="button" class="py-3 modal-btn w-100">Hồ sơ cầu thủ</button>
+          <button type="button" class="py-3 modal-btn w-100">Thay thế cầu thủ khác</button>
 
-
-
+        </div>
+      </div>
+    </div>
+  </div>
+{{-- end other modal --}}
     <div class="container" style="margin-left: auto; margin-right: auto">
       <div class="row">
-        <div class="col-md-9 ">
+        <div class="col-md-9 " >
           <!-- start course 1 -->
-            <div class=" main-box w-100 pt-4 mt-4">
+            <div class=" main-box w-100 pt-4 mt-4" style="position: sticky;  top: 0;" >
                     <table class="header-info mx-auto mb-4" >
                         <thead>
                             <tr>
@@ -341,8 +387,8 @@
                         </div>
                       <div class="container mt-3 ">
                         <div class="row">
-                          <div class="col-md-5 row col mx-auto justify-content-center">
-                            <div class="col-md-4 col-30 ">
+                          <div class="col-xl-5 col-md-7 row col mx-auto justify-content-center">
+                            <div class="col-md col-30 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
@@ -352,7 +398,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md-4 col-30">
+                            <div class="col-md col-30">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
@@ -362,7 +408,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md-4 col-30">
+                            <div class="col-md col-30">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
@@ -378,7 +424,7 @@
                       <div class="line-cf mx-auto mt-2">Tiền vệ</div>
                       <div class=" player-6s container mt-2 ">
                         <div class="row">
-                          <div class="col-md-6 col row mx-auto justify-content-center">
+                          <div class="col-xl-6 col row mx-auto justify-content-center">
                             <div class="col-md col-25 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
@@ -419,7 +465,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md col-25">
+                            <div class="col-md col-25 mtm-1">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -429,8 +475,8 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md col-25">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
+                            <div class="col-md col-25 mtm-1">
+                              <img src="images/close.png" alt="" class="position-absolute close-icon">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -446,7 +492,7 @@
                       <div class="line-cf mx-auto mt-3">Hậu vệ</div>
                       <div class=" player-6s container mt-2 ">
                         <div class="row">
-                          <div class="col-md-6 col row mx-auto justify-content-center ">
+                          <div class="col-xl-6 col row mx-auto justify-content-center ">
                             <div class="col-md col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
@@ -487,7 +533,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md col-25">
+                            <div class="col-md col-25 mtm-1">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -497,7 +543,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md col-25">
+                            <div class="col-md col-25 mtm-1">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -546,269 +592,10 @@
                       </button>
                     </div>
                   </div>
-            <!-- start course 2 -->
-                  <div class=" main-box w-100 pt-4 mt-4 d-none d-md-block">
-                    <table class="header-info mx-auto mb-4" >
-                        <thead>
-                            <tr>
-                                <th class="text-center" scope="col">Thời điểm vòng 17 bắt đầu</th>
-                                <th class="text-center" scope="col">Giá trị đội hình</th>
-                                <th class="text-center" scope="col">Ngân quỹ</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th class="text-center">24/03/2023 - 17:00</th>
-                                <th class="text-center">10tr</th>
-                                <th class="text-center">110tr</th>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="s-field  mx-md-auto ">
-                      <div class=" ">
-                        <div class="h-100 position-relative" >
-                          <div class="ads container d-flex justify-content-between " >
-                            <img src="./images/ad_type1.png" alt="" class="d-inline-block">
-                            <div class="line-cf line-small position-absolute" >Tiền đạo</div>
-                            <img src="images/ads.png" alt="" class="d-inline-block">
-                          </div>
-                        </div>
-                      <div class="container mt-3 ">
-                        <div class="row">
-                          <div class="col-5 row mx-auto">
-                            <div class="col-md-4 ">
-                              <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md-4">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md-4">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-
-                              </div>
 
 
-                            </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="line-cf mx-auto mt-2">Tiền vệ</div>
-                      <div class=" player-6s container mt-2 ">
-                        <div class="row">
-                          <div class="row mx-auto">
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="line-cf mx-auto mt-3">Hậu vệ</div>
-                      <div class=" player-6s container mt-2 ">
-                        <div class="row">
-                          <div class="row mx-auto">
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/close.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/player4.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="selected-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="line-cf mx-auto mt-3">Thủ môn</div>
-                      <div class=" player-6s container mt-2 ">
-                        <div class="row">
-                          <div class="row mx-auto">
-                            <div class="col-md">
-
-                            </div>
-                            <div class="col-md">
-
-                            </div>
-                            <div class="col-md">
-                              <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-                              <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
-                                Chọn
-                              </button>
-                              <div class="field-info rounded-bottom">
-                                <p class="mb-0 text-center lh-sm">-</p>
-                                <p class="mb-0 text-center lh-sm">-</p>
-                              </div>
-                            </div>
-                            <div class="col-md">
-
-                            </div>
-                            <div class="col-md">
-
-                            </div>
-                        </div>
-                        </div>
-                      </div>
-                      </div>
-
-
-                    </div>
-                    <div class="d-flex justify-content-center mt-4 pb-3">
-                      <button class="complete ">
-                        Hoàn thành đội hình
-                      </button>
-                    </div>
-                  </div>
         </div>
-        <div class="col-md-3 mt-3">
+        <div class="col-md-3 col-sm-3 mt-3">
           <h3>Lựa chọn cầu thủ</h3>
           <select name="" id="" class="form-control form-select form-rounded mt-1" value="">
             <option value="" selected>Tất cả cầu thủ</option>

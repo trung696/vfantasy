@@ -80,7 +80,7 @@
 
 
 
-    <div class="container" style="margin-left: auto; margin-right: auto">
+    <div class="container w-1230" style="margin-left: auto; margin-right: auto">
       <div class="row">
         <div class="col-md-9 ">
           <!-- start course 1 -->
@@ -194,11 +194,11 @@
                             <img src="images/ads.png" alt="" class="d-inline-block">
                           </div>
                         </div>
-                      <div class="container mb-2">
+                      <div class="container mt-4">
                         <div class="row">
                           <div class="col-md-5 col row mx-auto">
                             <div class="col-md-4 col-30 mx-auto">
-                              <img src="images/CAHN.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button type="button" class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
                               </button>
@@ -210,12 +210,12 @@
                         </div>
                       </div>
                       <!-- <div class="line-cf mx-auto mt-2">Tiền vệ</div> -->
-                      <div class=" player-6s container mt-5 mb-2">
+                      <div class=" player-6s container mt-4 mb-2">
                         <div class="row">
                           <div class=" col-md-5 col row mx-auto justify-content-center">
 
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -224,7 +224,7 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -233,7 +233,7 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -242,7 +242,7 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -251,9 +251,9 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/change.png" alt="" class="position-absolute" style="margin-left:3.7%; margin-top: -0.2%;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block" style="font-size: 12px; line-height: 18px;">
+                              <img src="images/change.png" alt="" class="position-absolute close-icon">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <button class="select-player rounded-top mx-auto w-100 d-block" style="font-size: 12px; line-height: 18px;">
                                 André Vieira
                               </button>
                               <div class="field-info rounded-bottom">
@@ -264,11 +264,11 @@
                         </div>
                       </div>
                       <!-- <div class="line-cf mx-auto mt-3">Hậu vệ</div> -->
-                      <div class=" player-6s container mt-5 mb-2 ">
+                      <div class=" player-6s container mt-4 mb-2 ">
                         <div class="row">
                           <div class=" col-md-5 col row mx-auto justify-content-center">
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -277,7 +277,7 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -286,7 +286,7 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -295,7 +295,7 @@
                               </div>
                             </div>
                             <div class="col-md-2 col-20" style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block " style="font-size: 12px; line-height: 18px;">
                                 Tiến Dũng
                               </button>
@@ -307,11 +307,11 @@
                         </div>
                       </div>
                       <!-- <div class="line-cf mx-auto mt-3">Thủ môn</div> -->
-                      <div class=" player-6s container mt-5 mb-2 ">
+                      <div class=" player-6s container mt-4  ">
                         <div class="row" style="padding-bottom: 30px;">
                           <div class=" col-md-5 col row mx-auto justify-content-center">
                             <div class="col-md-2 col-20 " style="padding-left: 0;">
-                              <img src="images/BinhDuong.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
+                              <img src="images/ao-dau-xepteam.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block  " style="font-size: 12px; line-height: 18px;">
                                 Juy Hoàng
                               </button>
@@ -323,7 +323,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="d-flex justify-content-center mt-4 pb-3">
+                    <div class="d-flex justify-content-center mt-5 pb-3">
                       <div class="row col-md-8">
                         <div class="col-md col-25" style="text-align: center;">
                           <p style="font-size: 9px; opacity: 50%; margin-bottom: 5px">Thủ môn</p>
