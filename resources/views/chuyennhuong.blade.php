@@ -641,7 +641,7 @@
                           <div class="col-xl-5 col-md-7 row col mx-auto justify-content-center">
                             <div class="col-md col-30 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#otherModal">
+                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
                               </button>
                               <div class="field-info rounded-bottom">
@@ -651,7 +651,7 @@
                             </div>
                             <div class="col-md col-30">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
-                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#otherModal">
+                              <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Chọn
                               </button>
                               <div class="field-info rounded-bottom">
