@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Chuyển Nhượng</title>
     <link rel="stylesheet" href="{{ asset('asset/chuyennhuong.css') }}" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,8 +13,8 @@
     <div class="menu">
         <header class="d-flex justify-content-between header pt-3" id="vtop">
           <div class="col-3"></div>
-          <div class="col-6 club-logo d-none d-xl-block ">
-            <img src="/images/club-logo.png" />
+          <div class="col-6 club-logo d-none d-xxl-block ">
+            <img src="/images/club-logo.png"/>
           </div>
           <div class="col-3 sign">
             <div class="" style="float: right; margin-right: 10%; margin-top: 3%; color:#FFB72D">
@@ -24,22 +24,17 @@
           </div>
         </header>
         <div class="text-center v-league">
-          <p class="top-banner-text"> Official V.league 1 Fantasy Football Application </p>
+          <p class="top-banner-text "> Official V.league 1 Fantasy Football Application </p>
           <img src="./images/vleague1.png" alt="" class="fanta-mb" />
         </div>
-          <div class="ds-small">
-              <div style="margin-left: 20%; margin-top: 5%" >
-                  <p class="d-md-none sm-fonts">Official V.league 1</p>
-                  <p class="d-md-none sm-fonts"> Fantasy Football Application</p>
-                </div>
-            </div>
+
         <div class="partner">
-          <div class="d-flex justify-content-between ">
-              <img src="/images/ons.png" style="margin-left: -10%"/>
-          </div>
+              <img src="/images/ons.png"/>
         </div>
           <div class="vfatasy" id="vfatasy">
-            <img src="/images/vfantasy.png" class="d-inline "/>
+            <img src="/images/vfantasy.png" class="d-inline d-none d-md-inline"/>
+            <img src="/images/vfantasy_mobile.png" class="small-vfantasy d-inline d-md-none"/>
+
             <p class="fanta d-none d-sm-block mb-3">VFANTASY</p>
             <select class="form-select form-rounded" id="team-select">
               <option value="">GoonerBBB</option>
@@ -47,16 +42,16 @@
           </div>
 
       <div class="flex justify-content-evenly vfatasy-menu pill">
-          <div class="my-auto navb-content d-none d-md-block">
+          <div class="my-auto navb-content d-none d-xl-block">
               <a href="">Giới thiệu</a>
           </div>
-          <div class="my-auto navb-content d-none d-md-block">
+          <div class="my-auto navb-content d-none d-xxl-block">
               <a href="">Hướng dẫn</a>
           </div>
           <div class="my-auto navb-content">
               <a href="">Điểm số</a>
           </div>
-          <div class="my-auto navb-content d-none d-md-block">
+          <div class="my-auto navb-content d-none d-xxl-block">
               <a href="">Thiết lập đội hình</a>
           </div>
           <div class=" navb-content active-navb" style="margin-top:17.5px  ">
@@ -115,8 +110,7 @@
       </div>
       <div class="modal-footer d-none d-md-block">
 
-        <table class="table" style=" border-collapse: separate;
-        border-spacing: 0 10px;">
+        <table class="table" style=" border-collapse: separate;border-spacing: 0 10px;">
           <thead>
             <tr>
               <td style="font-size: 11px;font-weight: 400;">Vòng</td>
@@ -161,9 +155,6 @@
                 <th class="tab-count">1</th>
                 <th class="tab-point">100</th>
             </tr>
-
-
-
             <tr id="tab-2" class="table-gr-background " onclick = "fun(this.id)">
                 <th>18</th>
                 <th colspan="2" class="lose-team text-end align-middle">Nam Định</th>
@@ -594,14 +585,12 @@
           <a href="#">8</a>
           <a href="#">Cuối</a>
         </div>
-
 </div>
     </div>
 
   </div>
 </div>
  <!-- end modal -->
-
     <div class="container" style="margin-left: auto; margin-right: auto">
       <div class="row">
         <div class="col-md-9" >
@@ -638,7 +627,7 @@
                         </div>
                       <div class="container mt-3 ">
                         <div class="row">
-                          <div class="col-xl-5 col-md-7 row col mx-auto justify-content-center">
+                          <div class="col-xxl-5 col-md-7 row col mx-auto justify-content-center">
                             <div class="col-md col-30 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -846,7 +835,7 @@
 
 
         </div>
-        <div class="col-md-3 col-sm-3 mt-3">
+        <div class="col-md-3 col-sm-3 mt-3 d-none d-md-block">
           <h3>Lựa chọn cầu thủ</h3>
           <select name="" id="" class="form-control form-select form-rounded mt-1" value="">
             <option value="" selected>Tất cả cầu thủ</option>

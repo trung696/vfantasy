@@ -15,9 +15,9 @@ p{
     margin-top: 16px;
 }
 .partner{
-    margin-left: 25.5%;
+    margin-left: 25%;
     position: absolute;
-    margin-top: -2%;
+    margin-top: 2%;
     color: white;}
 /*! CSS Used from: http://vfantasydev.vitex.asia/css/style.css */
 .vfatasy p.fanta {
@@ -57,9 +57,7 @@ p{
       margin-left: 20% !important;
       margin-top: 5% !important;
     }
-    .vfatasy img {
-      width: 10%;
-    }
+
     .vfatasy p {
       font-size: x-large;
       margin-left: 1%;
@@ -461,6 +459,17 @@ border-bottom: 0.5px solid;
     background-color: red;
     line-height: 24px;
   }
+  @media (max-width: 1440px) {
+    .partner{
+        margin-left: 28%;
+    }
+}
+@media (max-width: 1200px) {
+    .partner{
+        margin-left: 30%;
+    }
+}
+@media (max-width: 992px) {}
 @media (max-width: 768px) {
     .sm-fonts{
         font-size: 10px;
@@ -473,7 +482,7 @@ border-bottom: 0.5px solid;
         background-image:url(../images/menulogo.png);
         background-size:cover;
         background-position: center;
-        height: px;
+
     }
     .vfatasy-menu {
         width: 100%;
@@ -500,10 +509,7 @@ border-bottom: 0.5px solid;
     margin-left: 1% !important;
     margin-top: 3% !important;
   }
-  .vfatasy img {
-    width: 15%;
-    display: inline;
-  }
+
   .vfatasy p {
     /* font-size: xx-large; */
     font-size: 8px;
@@ -614,10 +620,7 @@ border-bottom: 0.5px solid;
     margin-left: 1% !important;
     margin-top: 3% !important;
   }
-  .vfatasy img {
-    width: 15%;
-    display: inline;
-  }
+
   .vfatasy p {
     /* font-size: xx-large; */
     font-size: 8px;
@@ -686,6 +689,9 @@ border-bottom: 0.5px solid;
   }
   .mtm-1{
     padding-top: 5px;
+  }
+  .small-vfantasy{
+    margin-top: 1%;
   }
 }
 
