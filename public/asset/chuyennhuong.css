@@ -465,11 +465,28 @@ border-bottom: 0.5px solid;
     }
 }
 @media (max-width: 1200px) {
-    .partner{
-        margin-left: 30%;
-    }
+    .s-field{
+        background-image:url(../images/stage.png);
+        background-size:cover;
+        background-position:center;
+        width:fit-content;
+        /* height: 100%; */
+        background-repeat: no-repeat
+      }
 }
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .s-field{
+        background-image:url(../images/stage.png);
+        background-size:cover;
+        background-position:center;
+        width:fit-content;
+        /* height: 100%; */
+        background-repeat: no-repeat
+      }
+      .partner{
+        margin-left: 30%;
+      }
+}
 @media (max-width: 768px) {
     .sm-fonts{
         font-size: 10px;
@@ -579,6 +596,9 @@ border-bottom: 0.5px solid;
 
   .club-logo{
     width: 50% !important;
+  }
+  .small-vfantasy{
+    margin-top: 1%;
   }
 }
 @media (max-width: 480px) {

@@ -35,7 +35,7 @@
             <img src="/images/vfantasy.png" class="d-inline d-none d-md-inline"/>
             <img src="/images/vfantasy_mobile.png" class="small-vfantasy d-inline d-md-none"/>
 
-            <p class="fanta d-none d-sm-block mb-3">VFANTASY</p>
+            <p class="fanta d-none d-xl-block mb-3">VFANTASY</p>
             <select class="form-select form-rounded" id="team-select">
               <option value="">GoonerBBB</option>
             </select>
@@ -627,7 +627,7 @@
                         </div>
                       <div class="container mt-3 ">
                         <div class="row">
-                          <div class="col-xxl-5 col-md-7 row col mx-auto justify-content-center">
+                          <div class="col-xxl-5 col-xl-5 col-md-8 row col mx-auto justify-content-center">
                             <div class="col-md col-30 ">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -799,9 +799,9 @@
                       <div class="line-cf mx-auto mt-3">Thủ môn</div>
                       <div class=" player-6s container mt-2 ">
                         <div class="row">
-                          <div class="col-md-2 col row mx-auto justify-content-center my-1">
+                          <div class="col-md-5 col-xl-2 col row mx-auto justify-content-center my-1">
 
-                            <div class="col-md-2 col-25">
+                            <div class="col-md-4 col-xl-2 col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
@@ -811,7 +811,7 @@
                                 <p class="mb-0 text-center lh-sm">-</p>
                               </div>
                             </div>
-                            <div class="col-md-2 col-25">
+                            <div class="col-md-4 col-xl-2 col-25">
                               <img src="images/anomus.png" alt="" class=" field-img rounded-circle mx-auto d-block mb-1">
                               <button class="select-player rounded-top w-100 mx-auto d-block lh-sm">
                                 Chọn
