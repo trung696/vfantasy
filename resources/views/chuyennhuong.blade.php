@@ -835,7 +835,7 @@
 
 
         </div>
-        <div class="col-md-3 col-sm-3 mt-3 d-none d-md-block">
+        <div class="col-md-3 mt-3 d-none d-md-block container">
           <h3>Lựa chọn cầu thủ</h3>
           <select name="" id="" class="form-control form-select form-rounded mt-1" value="">
             <option value="" selected>Tất cả cầu thủ</option>
@@ -883,251 +883,30 @@
             <button type="submit"> Search </button>
           </form>
           <p class="search-detail mt-2">Kết quả 329 cầu thủ</p>
-          <div class="bench">
-            <div class="d-flex justify-content-center">
-              <button class="rounded border-0 w-50 mb-2">Tiền đạo</button>
+
+
+          <div class="tien-dao row border mt-1 mx-auto ">
+            <div class="col-2 mt-3">
+                <div class="btn rounded-circle border border-1 ">
+                    <i class="fa-solid fa-plus" style="color: orange"></i>
+                  </div>
             </div>
-            <table class="table border">
-              <tbody>
-                <tr class="info-block">
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
+            <div class="col-8 d-xxl-flex left-m">
+                <div class="col-xxl-3 d-block mt-3">
+                    <img src="images/player1.png" alt="" class="rounded-circle"/>
+                </div>
+                <div class="col-xxl d-none"></div>
+                <div class="col-xxl-8 col-sm-8 d-xl-inline d-block ">
                     <div class="player-name">Almada Monteiro Elton</div>
                     <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="bench">
-            <div class="d-flex justify-content-center">
-              <button class="rounded border-0 w-50 mb-2">Tiền vệ</button>
+                </div>
             </div>
-            <table class="table border">
-              <tbody>
-                <tr class="info-block">
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="bench">
-            <div class="d-flex justify-content-center">
-              <button class="rounded border-0 w-50 mb-2">Hậu vệ</button>
-            </div>
-            <table class="table border">
-              <tbody>
-                <tr class="info-block">
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="bench">
-            <div class="d-flex justify-content-center">
-              <button class="rounded border-0 w-50 mb-2">Thủ môn</button>
-            </div>
-            <table class="table border">
-              <tbody>
-                <tr class="info-block">
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <div class="btn rounded-circle border border-1 mt-3">
-                      <i class="fa-solid fa-plus" style="color: orange"></i>
-                    </div>
-                  </th>
-                  <td class="player-img">
-                    <img src="images/player1.png" alt="" class="rounded-circle pt-3" />
-                  </td>
-                  <td class="player-info">
-                    <div class="player-name">Almada Monteiro Elton</div>
-                    <div class="place-price">CAHN &#x2022; 10tr</div>
-                  </td>
-                  <td>
-                    <p class="mt-4">1.225</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="col-2 mt-4" style="padding-left: 0"> 1.225 </div>
           </div>
           <div class="pagination">
             <a href="#">Đầu</a>
             <a href="#">1</a>
             <a href="#">2</a>
-            <a href="#">3</a>
             <a href="#">...</a>
             <a href="#">8</a>
             <a href="#">Cuối</a>
