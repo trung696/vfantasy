@@ -492,8 +492,13 @@ border-bottom: 0.5px solid;
       .partner{
         margin-left: 30%;
       }
+      .close-icon{
+        margin-left:8%; margin-top: -0.2%;
+      }
+
 }
 @media (max-width: 768px) {
+
     .sm-fonts{
         font-size: 10px;
         font-weight: 500;
@@ -597,7 +602,7 @@ border-bottom: 0.5px solid;
   width: 20%;
   }
   .close-icon{
-    margin-left:5%; margin-top: -0.2%;
+    margin-left:13%; margin-top: -0.2%;
   }
 
   .club-logo{

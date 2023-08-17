@@ -901,9 +901,9 @@
                     <div class="place-price">CAHN &#x2022; 10tr</div>
                 </div>
             </div>
-            <div class="col-2 mt-4" style="padding-left: 0"> 1.225 </div>
+            <div class="col-2 mt-4 d-none d-xl-block" style="padding-left: 0"> 1.225 </div>
           </div>
-          <div class="pagination">
+          <div class="pagination d-none d-xl-flex">
             <a href="#">Đầu</a>
             <a href="#">1</a>
             <a href="#">2</a>

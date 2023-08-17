@@ -11,78 +11,69 @@
   </head>
   <body>
     <div class="menu">
-      <header class="d-flex justify-content-between header pt-3">
-        <div class="col-3"></div>
-        <div class="col-6 club-logo d-none d-sm-block ">
-          <img src="/images/club-logo.png" />
-        </div>
-        <div class="col-3 sign">
-          <div class="" style="float: right; margin-right: 10%; margin-top: 3%; color:#FFB72D">
-            <div class="d-sm-inline-block d-none "> Xin chào , <a href="" style="color: #FFB72D; text-decoration: none;">&nbsp; Bách Nguyễn</a></div>
-            <img src="/images/avatar.png" />
+        <header class="d-flex justify-content-between header pt-3" id="vtop">
+          <div class="col-3"></div>
+          <div class="col-6 club-logo d-none d-xxl-block ">
+            <img src="/images/club-logo.png"/>
           </div>
-        </div>
-      </header>
-      <div class="text-center v-league">
-        <p class="top-banner-text"> Official V.league 1 Fantasy Football Application </p>
-        <img src="./images/vleague1.png" alt="" class="fanta-mb" />
-      </div>
-        <div class="ds-small">
-            <div style="margin-left: 20%; margin-top: 5%" >
-                <p class="d-md-none sm-fonts">Official V.league 1</p>
-                <p class="d-md-none sm-fonts"> Fantasy Football Application</p>
-              </div>
-          </div>
-      <div class="partner">
-        <div class="d-flex justify-content-between ">
-            <img src="/images/partner.png" style="margin-left: -10%"/>
-            <div >
-                <p class="sm-fonts"> ĐỐI TÁC </p>
-                <p class="sm-fonts" > VẬN HÀNH </p>
+          <div class="col-3 sign">
+            <div class="" style="float: right; margin-right: 10%; margin-top: 3%; color:#FFB72D">
+              <div class="d-sm-inline-block d-none "> Xin chào , <a href="" style="color: #FFB72D; text-decoration: none;">&nbsp; Bách Nguyễn</a></div>
+              <img src="/images/avatar.png" />
             </div>
-        </div>
-      </div>
-        <div class="vfatasy">
-          <img src="/images/vfantasy.png" class="d-inline "/>
-          <p class="fanta d-none d-sm-block mb-3">VFANTASY</p>
-          <select class="form-select form-rounded" id="team-select">
-            <option value="">GoonerBBB</option>
-          </select>
+          </div>
+        </header>
+        <div class="text-center v-league">
+          <p class="top-banner-text "> Official V.league 1 Fantasy Football Application </p>
+          <img src="./images/vleague1.png" alt="" class="fanta-mb" />
         </div>
 
-    <div class="flex justify-content-evenly vfatasy-menu pill">
-        <div class="my-auto navb-content d-none d-md-block">
-            <a href="">Giới thiệu</a>
+        <div class="partner">
+              <img src="/images/ons.png"/>
         </div>
-        <div class="my-auto navb-content d-none d-md-block">
-            <a href="">Hướng dẫn</a>
-        </div>
-        <div class="my-auto navb-content">
-            <a href="">Điểm số</a>
-        </div>
-        <div class="my-auto navb-content d-none d-md-block">
-            <a href="">Thiết lập đội hình</a>
-        </div>
-        <div class=" navb-content active-navb" style="margin-top:17.5px  ">
-            <a href="" class="">Chuyển nhượng</a>
-        </div>
-        <div class="my-auto navb-content d-none d-md-block">
-            <a href="">Giải đấu</a>
-        </div>
-        <div class="my-auto navb-content d-none d-md-block">
-            <a href="">Thống kê</a>
-        </div>
-        <div class="my-auto navb-content d-block d-md-none" style="content:'\2807'">
-            <a href="">Thêm &#10247;</a>
-        </div>
-    </div>
+          <div class="vfatasy" id="vfatasy">
+            <img src="/images/vfantasy.png" class="d-inline d-none d-md-inline"/>
+            <img src="/images/vfantasy_mobile.png" class="small-vfantasy d-inline d-md-none"/>
+
+            <p class="fanta d-none d-xl-block mb-3">VFANTASY</p>
+            <select class="form-select form-rounded" id="team-select">
+              <option value="">GoonerBBB</option>
+            </select>
+          </div>
+
+      <div class="flex justify-content-evenly vfatasy-menu pill">
+          <div class="my-auto navb-content d-none d-xl-block">
+              <a href="">Giới thiệu</a>
+          </div>
+          <div class="my-auto navb-content d-none d-xxl-block">
+              <a href="">Hướng dẫn</a>
+          </div>
+          <div class="my-auto navb-content">
+              <a href="">Điểm số</a>
+          </div>
+          <div class="my-auto navb-content d-none d-xxl-block">
+              <a href="">Thiết lập đội hình</a>
+          </div>
+          <div class=" navb-content active-navb" style="margin-top:17.5px  ">
+              <a href="" class="">Chuyển nhượng</a>
+          </div>
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Giải đấu</a>
+          </div>
+          <div class="my-auto navb-content d-none d-md-block">
+              <a href="">Thống kê</a>
+          </div>
+          <div class="my-auto navb-content d-block d-md-none" style="content:'\2807'">
+              <a href="">Thêm &#10247;</a>
+          </div>
+      </div>
 
 
 
 
     <div class="container w-1230" style="margin-left: auto; margin-right: auto">
       <div class="row">
-        <div class="col-md-9 ">
+        <div class="col-lg-9 ">
           <!-- start course 1 -->
             <div class=" main-box w-100 pt-4 mt-4">
                     <div class="header-info mx-auto mb-4 text-center" >
@@ -417,7 +408,7 @@
           </div>
         </div>
         <!-- End Modal -->
-        <div class="col-md-3 mt-3">
+        <div class="col-lg-3 mt-3 container">
           <div class="round" style="background-color: #F6F7FB; border-radius: 24px;">
             <div class="coach d-flex pt-3" style="margin-left: 10px;">
               <div>
