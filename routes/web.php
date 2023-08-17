@@ -22,3 +22,6 @@ Route::get('/xepteam', function () {
 Route::get('/chuyennhuong', function () {
     return view('chuyennhuong');
 });
+Route::get('/login', function () {
+    return view('login');
+});
