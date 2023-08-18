@@ -1,7 +1,8 @@
-* {
 
-    font-family: ;
-   }
+@font-face {
+    font-family: "SF-pro";
+    src: url("/asset/SF-Pro-Display-Regular.otf");
+}
 .menu{
     background-image:url(../images/menulogo.png);
     background-size:cover;
@@ -83,6 +84,53 @@ p{
   }
   .login-form{
     margin-top: 5%;
+    width: 410px;
+  }
+  .login-label{
+    /* font-family: SF-pro; */
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+  }
+  .ip-form{
+    border: 1px solid transparent;
+    background-color: #f6f7fb;
+  }
+  .bt-signin{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: linear-gradient(225deg, #FAD961 0%, #F76B1C 100%);
+    font-weight: 900;
+    font-size: 18px;
+    height: 64px;
+    color: white;
+  }
+  .forget{
+    text-align: center;
+  }
+  .forget a{
+    color: #f87221;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 12px;
+
+  }
+  .ons-sign{
+    border: 1px solid black;
+  }
+  .ons-plus{
+    font-size: 18px;
+    font-weight: 900;
+
+  }
+  .w-signin{
+
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .bt-8px{
+    border-radius: 8px;
   }
   @media (max-width: 1024px) {
     #team-select {
@@ -108,3 +156,4 @@ p{
       margin-top: 5% !important;
     }
   }
+
