@@ -21,7 +21,7 @@
           <div class="col-3 sign">
             <div class="" style="float: right; margin-right: 10%; margin-top: 3%; color:#FFB72D">
               <div class="d-sm-inline-block d-none "><a href="/dangnhap" style="color: #FFB72D; text-decoration: none;"> Đăng nhập ,</a> <a href="/dangky" style="color: #FFB72D; text-decoration: none;">&nbsp; Đăng ký</a></div>
-              <img src="/images/avatar.png" class="d-none d-md-block"/>
+              <img src="/images/avatar.png" class="d-none d-md-inline"/>
             </div>
           </div>
         </header>
@@ -49,31 +49,31 @@
       </div>
     </div>
     <div class="container d-flex justify-content-center ">
+
         <div class="login-form d-block">
+            <button class="w-100 bt-8px">
+                <img src="images/partner.png" alt="" class="mx-auto d-inline-block align-middle">
+                <div class="d-inline-block align-middle">
+                <p class="ons-plus">Đăng ký bằng</p>
+                <p class="ons-plus">tài khoản onplus</p>
+                </div>
+            </button>
+            <p class="mt-3 text-center">Hoặc</p>
+            <p class="text-center mb-3">Đăng kí bằng email, số điện thoại</p>
             <div class="email-form">
                 <div class="login-label mb-3">TÊN ĐĂNG NHẬP</div>
-                <input type="email" class="form-control-lg rounded-pill w-100 ip-form" id="exampleFormControlInput1" placeholder="Email hoặc số điện thoại của bạn">
+                <input type="email" class="form-control-lg rounded-pill w-100 ip-form"  placeholder="Email hoặc số điện thoại của bạn">
 
             </div>
             <div class="email-form mt-3">
                 <div class="login-label mb-3">MẬT KHẨU</div>
-                <input type="password" class="form-control-lg rounded-pill w-100 ip-form" id="exampleFormControlInput1" placeholder="Mật khẩu ít nhất 8 kí tự">
+                <input type="password" class="form-control-lg rounded-pill w-100 ip-form"  placeholder="Mật khẩu ít nhất 8 kí tự">
+                <input type="re-password" class="form-control-lg rounded-pill w-100 ip-form mt-2"  placeholder="Nhắc lại mật khẩu">
 
             </div>
-            <button type="button" class="bt-signin mt-4 w-100">ĐĂNG NHẬP</button>
-            <div class="forget mt-4">
-                <a href="#">Quên mật khẩu</a>
-            </div>
-            <p class="mt-5 mb-3 text-center">Hoặc</p>
+            <button type="button" class="bt-signin mt-4 w-100">ĐĂNG KÝ</button>
 
-            <button class="w-100 bt-8px">
-                <img src="images/partner.png" alt="" class="mx-auto d-inline-block align-middle">
-                <div class="d-inline-block align-middle">
-                <p class="ons-plus">Đăng nhập bằng</p>
-                <p class="ons-plus">tài khoản onplus</p>
-                </div>
-            </button>
-            <div class="d-flex gap-2 mt-2 mb-3">
+            <div class="d-flex gap-2 mt-5 mb-3">
                 <button class="w-50 p-2 w-signin bt-8px">
                     <img src="images/gg.png" alt="" class="d-inline-block align-middle" style="margin-right: 10px">
                     Google</button>

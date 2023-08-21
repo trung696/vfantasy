@@ -25,3 +25,6 @@ Route::get('/chuyennhuong', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/sign-up', function () {
+    return view('signup');
+});
