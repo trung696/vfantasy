@@ -28,3 +28,6 @@ Route::get('/login', function () {
 Route::get('/sign-up', function () {
     return view('signup');
 });
+Route::get('/user-info', function () {
+    return view('info');
+});
